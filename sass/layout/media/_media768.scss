@@ -1,44 +1,63 @@
 @media screen and (max-width: 768px) {
-    *{
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
         justify-content: center;
     }
-    .centro{
+
+    .centro {
         margin-top: 35%;
     }
+
     .nav-item {
         display: flex;
         gap: 7px;
         flex-direction: column;
     }
-    .sectioninfo img{
+
+    .sectioninfo img {
         width: auto;
         height: auto;
     }
-    .sectioninfotext{
+
+    .sectioninfotext {
         display: grid;
         grid-template-columns: 100px 100px 100px 100px;
     }
-    .sectioninfotext a{
+
+    .sectioninfotext a {
         font-size: 10px;
     }
-    .center{
+
+    .center {
         display: flex;
         justify-content: center;
     }
-    .logobong{
+
+    .logobong {
         display: flex;
         justify-content: center;
     }
-    #sectionbotonindex{
+
+    #sectionbotonindex {
         column-gap: 30px;
+
+        button {
+            width: auto;
+            height: auto;
+
+            img {
+                width: 100%;
+            }
+        }
     }
+
     .buscar {
         height: auto;
         width: 100px;
     }
+
     .container {
         display: flex;
         justify-content: start;
@@ -46,14 +65,15 @@
         max-height: 100%;
         overflow: hidden;
     }
-    
+
     .button {
         display: flex;
         flex-direction: column;
         justify-content: center;
         overflow: hidden;
     }
-    .grilla{
+
+    .grilla {
         display: grid;
         grid-template-columns: 1fr 1fr;
         margin: 20px;
@@ -61,33 +81,39 @@
         margin-top: 50px;
         gap: 20px;
     }
-    footer{
+
+    footer {
         justify-content: stretch;
         width: 100%;
     }
-    .footerimg{
+
+    .footerimg {
         display: flex;
         justify-content: start;
-    } 
-    .sectionfooter ul{
+    }
+
+    .sectionfooter ul {
         width: max-content;
-    }  
-    .sectionfooter ul li a{
+    }
+
+    .sectionfooter ul li a {
         text-decoration: none;
         color: white;
     }
-    .sectionfooter{
+
+    .sectionfooter {
         margin-right: 10%;
     }
+
     .footerimg {
         display: flex;
         margin-left: 15%;
         padding: 10px;
         padding-top: 50px;
     }
-    .quienessomos p{
-        font-size: 20px;
-        margin-top: -100px;
+
+    .quienessomos {
+        display: none;
     }
-    
-  }
+
+}

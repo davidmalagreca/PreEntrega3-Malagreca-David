@@ -296,6 +296,11 @@ button div ul li a {
     justify-content: center;
     column-gap: 5px;
     margin-top: 50px; }
+    #sectionbotonindex button {
+      width: auto;
+      height: auto; }
+      #sectionbotonindex button img {
+        width: 100%; }
   .grilla {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -321,9 +326,8 @@ button div ul li a {
     column-gap: 5px; }
   .tarjetas-footer img {
     width: 15px; }
-  .quienessomos p {
-    font-size: 20px;
-    margin-top: -20px; } }
+  .quienessomos {
+    display: none; } }
 
 @media screen and (max-width: 768px) {
   * {
@@ -353,6 +357,11 @@ button div ul li a {
     justify-content: center; }
   #sectionbotonindex {
     column-gap: 30px; }
+    #sectionbotonindex button {
+      width: auto;
+      height: auto; }
+      #sectionbotonindex button img {
+        width: 100%; }
   .buscar {
     height: auto;
     width: 100px; }
@@ -392,9 +401,8 @@ button div ul li a {
     margin-left: 15%;
     padding: 10px;
     padding-top: 50px; }
-  .quienessomos p {
-    font-size: 20px;
-    margin-top: -100px; } }
+  .quienessomos {
+    display: none; } }
 
 .container {
   font-weight: bold;
