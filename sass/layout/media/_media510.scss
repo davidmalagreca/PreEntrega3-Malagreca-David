@@ -1,0 +1,135 @@
+@media screen and (max-width: 510px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        justify-content: center;
+    }
+    .nav-item {
+        display: flex;
+        gap: 7px;
+        flex-direction: column;
+    }
+    .center{
+        display: flex;
+        justify-content: center;
+    }
+    .logobong{
+        display: flex;
+        justify-content: center;
+    }
+    .logobong img{
+        width: 70px;
+    }
+    .buscar {
+        height: auto;
+        width: 100px;
+    }
+    .centro{
+        width: auto;
+        margin-top: 55%;
+    }
+    .container {
+        display: flex;
+        justify-content: start;
+        max-width: auto;
+        max-height: 100%;
+        overflow: hidden;
+    }
+    .button .boton{
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 1px;
+        margin-bottom: 40px;
+        background-color: rgba(255, 255, 255, 0);
+        width: auto;
+    }
+    .button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        overflow: hidden;
+    }
+    .boton {
+        display: flex;
+        justify-content: center;
+    }
+    .footerimg{
+        display: flex;
+        justify-content: start;
+        margin-left: 5%;
+        width: auto;
+    }
+    .footerlogo img{
+        width: 35px;
+    }
+    .sectioninfotext  img{
+        max-width: 150px;
+        justify-content: center;
+    }
+    .sectioninfotext{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+    .img-info img{
+        width: 50px;
+        max-width: 50px;
+        min-width: 10px;
+    }
+    .sectioninfotext a{
+        font-size: 8px;
+        text-align: center;
+        margin-top: 30px;
+    }
+    #sectionbotonindex button{
+        display: grid;
+        margin: 5px;   
+    }
+    #sectionbotonindex{
+        display: grid; 
+        margin: 3%;
+        grid-template-columns: auto;
+        justify-content: center;
+        column-gap: 5px;
+        margin-top: 50px;
+    }
+    .grilla{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 10px;
+        max-width: max-content;
+        margin-top: 50px;
+    }
+    .articulo{
+        font-size: 15px;
+        width: 100%;
+    }
+    .prenda-info ul{
+        display: flex;
+        text-align: start;
+        margin-left: -20px;
+        font-size: 12px;
+    }
+    .boxtext{
+        font-size: 20px;
+    }
+    .sectionfooter ul{
+        font-size: 7px;
+    }
+    .sectionfooter{
+        margin-right: 10%;
+        gap: auto;
+    }
+    .tarjetas-footer{
+        column-gap: 5px;
+    }
+    .tarjetas-footer img{
+        width: 15px;
+    }
+    .quienessomos p{
+        font-size: 20px;
+        margin-top: -20px;
+    }
+  }
+  
+  
