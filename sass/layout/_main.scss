@@ -1,130 +1,172 @@
 main {
-    margin-top: 13%;
-    margin-bottom: 5%;
-  }
-  .centro div{
-    display: flex;
-    justify-content: center;
-    width: fit-content;
-  }
+  margin-top: 13%;
+  margin-bottom: 5%;
+}
 
-  #sectionbotonindex{
-    display: grid; 
-    margin: 3%;
-    grid-template-columns: auto auto;
-    justify-content: center;
-    column-gap: 50px;
-    
-  }
+.centro div {
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+}
 
-  .prenda-img {
-    border-radius: 20px;
-    width: max-content;
-    height: auto;
-    cursor: pointer;
-  }
-  .prendas img:hover{
-    transform: scale(1.1);
-    transition:0.3s;
-  }
-  .grilla {
-    display: grid;
-    grid-template-columns: 300px 300px 300px;
-    justify-content: center;
-    gap: 3.125rem;
-  }
-  .grilla .card{
-    border-color: rgba(255, 255, 255, 0);
-  }
-  .card {
-    width: 100%;
-    height: 100%;
-  }
-  .boxtext {
-    font-size: 30px;
-    padding: .3125rem;
-    margin: 5px;
-    font-weight: bolder;
-    width: max-content;
-    margin-top: 200px;
-  }
-  .prendas {
-    width: auto;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-  }
-  .prenda-info {
-    background-color: rgb(255, 255, 255);
-    font-size: 13px;
-  }
-  .articulo {
-    font-weight: bold;
-    font-size: 30px;
-    margin-bottom: 0px;
-    margin: 10px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  }
-  .prenda-info ul li {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    list-style: none;
-    margin-left: 4%;
-  }
-  .prenda-info ul{
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-  }
-  .img-somos {
-    display: flex;
-    justify-content: center;
-  }
-  .quienessomos p {
-    padding-top: 20px;
-    font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 50px;
-    margin-top: -200px;
-  }
-  .img-boton {
-    display: grid;
-    border-radius: 20px;
-    width: 100%;
-    height: 100%;
-    cursor: pointer;
-    background: none;
-    border: none;
-    padding: 0;
-  }
+#sectionbotonindex {
+  display: grid;
+  margin: 3%;
+  grid-template-columns: auto auto;
+  justify-content: center;
+  column-gap: 50px;
+
   .boton {
     margin-top: 80px;
     border-radius: 23px;
     border: none;
+
+    .img-boton {
+      display: grid;
+      border-radius: 20px;
+      width: 100%;
+      height: 100%;
+      cursor: pointer;
+      background: none;
+      border: none;
+      padding: 0;
+    }
+
   }
-  
-  .span {
-    font-weight: lighter;
+
+}
+
+.boxtext {
+  font-size: 30px;
+  padding: .3125rem;
+  margin: 5px;
+  font-weight: bolder;
+  width: max-content;
+  margin-top: 200px;
+}
+.prendas img:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.grilla {
+  display: grid;
+  grid-template-columns: 300px 300px 300px;
+  justify-content: center;
+  gap: 3.125rem;
+
+  .card {
+    border-color: rgba(255, 255, 255, 0);
+    width: 100%;
+    height: 100%;
+
+    .prendas {
+      width: auto;
+      height: auto;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .prenda-img {
+        border-radius: 20px;
+        width: max-content;
+        height: auto;
+        cursor: pointer;
+
+        .prenda-info {
+          background-color: rgb(255, 255, 255);
+          font-size: 13px;
+
+          .articulo {
+            font-weight: bold;
+            font-size: 30px;
+            margin-bottom: 0px;
+            margin: 10px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          }
+
+        }
+      }
+    }
   }
-  .sectioninfotext {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: auto auto auto auto;
-    justify-content: space-around;
-    margin-top: 50px;
-    text-align: center;
+}
+
+
+
+.prenda-info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    list-style: none;
+    margin-left: 4%;
+    .span {
+      font-weight: lighter;
+    }
   }
-  .sectioninfotext a {
+}
+
+.devoluciones {
+  margin-top: 200px;
+
+  p {
+    font-weight: bolder;
+    margin: 5%;
+  }
+}
+.sectioninfotext {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  justify-content: space-around;
+  margin-top: 50px;
+  text-align: center;
+
+  a {
     text-decoration: none;
     color: rgb(56, 52, 52);
     font-weight: bolder;
   }
+}
+.img-somos {
+  display: flex;
+  justify-content: center;
+}
 
-  .devoluciones{
-    margin-top: 200px;
+.quienessomos p {
+  padding-top: 20px;
+  font-weight: bold;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 50px;
+  margin-top: -200px;
+}
+.info-somos{
+padding: 3%;
+}
+.video-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.video-container {
+  position: relative;
+  width: 450px;
+  height: 350px;
+  overflow: hidden;
+  background: #000000;
+  border-radius: 8px; 
+  margin: 5%;
+
+  iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0; 
+
   }
-  .devoluciones p {
-    font-weight: bolder;
-    margin: 5%;
-  }
+}
