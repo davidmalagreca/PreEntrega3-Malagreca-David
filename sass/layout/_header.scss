@@ -1,40 +1,48 @@
 header {
-    position: fixed;
-    background-color: white;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 1000;
-  }
-  .nav-item{
-    a{
-      font-weight: 500;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+
+.logobong1 {
+  display: flex;
+  justify-content: center;
+
+  .logobong {
+    img {
+      display: flex;
+      width: 100px;
+      justify-content: center;
     }
   }
-  .center .h1{
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  background-color: lightgray;
+
+  .h1 {
     text-align: center;
     font-size: 13px;
     color: white;
     margin-top: 7px;
   }
-  .logobong img{
-    display: flex;
-    width: 100px;
-    justify-content: center;
+}
+
+.navbar-brand {
+  font-family: "Oswald", sans-serif;
+  font-weight: bolder;
+}
+
+.nav-item {
+  justify-content: space-around;
+
+  a {
+    font-weight: 500;
   }
-  .logobong1 {
-    display: flex;
-    justify-content: center;
-  }
-  .center {
-    display: flex;
-    justify-content: center;
-    background-color: lightgray;
-  }
-  .navbar-brand{
-    font-family: "Oswald", sans-serif;
-    font-weight: bolder;
-  }
-  .nav-item{
-    justify-content: space-around;
-  }
+}

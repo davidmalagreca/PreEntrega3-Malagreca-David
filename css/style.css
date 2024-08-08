@@ -12,28 +12,23 @@ header {
   left: 0;
   z-index: 1000; }
 
-.nav-item a {
-  font-weight: 500; }
-
-.center .h1 {
-  text-align: center;
-  font-size: 13px;
-  color: white;
-  margin-top: 7px; }
-
-.logobong img {
-  display: flex;
-  width: 100px;
-  justify-content: center; }
-
 .logobong1 {
   display: flex;
   justify-content: center; }
+  .logobong1 .logobong img {
+    display: flex;
+    width: 100px;
+    justify-content: center; }
 
 .center {
   display: flex;
   justify-content: center;
   background-color: lightgray; }
+  .center .h1 {
+    text-align: center;
+    font-size: 13px;
+    color: white;
+    margin-top: 7px; }
 
 .navbar-brand {
   font-family: "Oswald", sans-serif;
@@ -41,6 +36,8 @@ header {
 
 .nav-item {
   justify-content: space-around; }
+  .nav-item a {
+    font-weight: 500; }
 
 main {
   margin-top: 13%;
@@ -184,12 +181,11 @@ footer {
   width: 100%;
   background-color: black; }
 
-.sectionfooter ul li a {
-  text-decoration: none;
-  color: white; }
-
 .sectionfooter ul {
   list-style: none; }
+  .sectionfooter ul li a {
+    text-decoration: none;
+    color: white; }
 
 .sectionfooter {
   display: grid;
@@ -284,7 +280,8 @@ button div ul li a {
     display: grid;
     grid-template-columns: auto auto auto auto;
     margin: 4%; }
-    .sectioninfotext a {
+    .sectioninfotext gi
+a {
       font-size: 6px;
       text-align: center;
       margin-top: 3px; }
