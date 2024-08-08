@@ -57,11 +57,6 @@ main {
   grid-template-columns: auto auto;
   justify-content: center;
   column-gap: 50px; }
-  #sectionbotonindex button {
-    width: 900px;
-    height: 450px; }
-    #sectionbotonindex button img {
-      width: 100%; }
 
 .prenda-img {
   border-radius: 20px;
