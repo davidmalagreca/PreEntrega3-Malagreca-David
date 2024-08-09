@@ -13,6 +13,16 @@ header {
   left: 0;
   z-index: 1000; }
 
+.quienessomos {
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+  width: auto; }
+  .quienessomos p {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px; }
+
 .logobong1 {
   display: flex;
   justify-content: center; }
@@ -142,13 +152,6 @@ main {
 .img-somos {
   display: flex;
   justify-content: center; }
-
-.quienessomos p {
-  padding-top: 20px;
-  font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 50px;
-  margin-top: -200px; }
 
 .info-somos {
   padding: 3%; }
@@ -330,8 +333,8 @@ a {
     column-gap: 5px; }
   .tarjetas-footer img {
     width: 15px; }
-  .quienessomos {
-    display: none; } }
+  .quienessomos p {
+    font-size: 30px; } }
 
 @media screen and (max-width: 768px) {
   * {
@@ -406,7 +409,10 @@ a {
     padding: 10px;
     padding-top: 50px; }
   .quienessomos {
-    display: none; } }
+    display: flex;
+    justify-content: center; }
+    .quienessomos p {
+      font-size: 40px; } }
 
 .container {
   font-weight: bold;
@@ -495,10 +501,3 @@ a {
   margin-top: 80px;
   border-radius: 23px;
   border: none; }
-
-.quienessomos p {
-  padding-top: 20px;
-  font-weight: bold;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-  font-size: 50px;
-  margin-top: -200px; }

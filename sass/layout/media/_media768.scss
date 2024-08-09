@@ -113,7 +113,10 @@
     }
 
     .quienessomos {
-        display: none;
-    }
+        @include centerMixin;
 
+        p {
+            font-size: 40px;
+        }
+    }
 }

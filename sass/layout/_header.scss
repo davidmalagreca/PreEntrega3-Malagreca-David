@@ -9,6 +9,16 @@ header {
   z-index: 1000;
 }
 
+.quienessomos {
+  @include centerMixin;
+  margin: 10px;
+  width: auto;
+  p {
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+  }
+}
 
 .logobong1 {
   @include centerMixin;
