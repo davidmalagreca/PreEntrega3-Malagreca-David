@@ -1,3 +1,5 @@
+@import "../utilities/mixins";
+@import "../base/typografias";
 header {
   position: fixed;
   background-color: white;
@@ -9,21 +11,18 @@ header {
 
 
 .logobong1 {
-  display: flex;
-  justify-content: center;
+  @include centerMixin;
 
   .logobong {
     img {
-      display: flex;
+      @include centerMixin;
       width: 100px;
-      justify-content: center;
     }
   }
 }
 
 .center {
-  display: flex;
-  justify-content: center;
+  @include centerMixin;
   background-color: lightgray;
 
   .h1 {

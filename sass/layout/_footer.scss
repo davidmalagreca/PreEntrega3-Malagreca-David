@@ -1,3 +1,4 @@
+@import "../utilities/mixins";
 footer {
   width: 100%;
   background-color: black;
@@ -37,8 +38,7 @@ footer {
 }
 
 .tarjetas-footer {
-  display: flex;
-  justify-content: center;
+  @include centerMixin;
   padding-bottom: 25px;
   gap: 30px;
 }

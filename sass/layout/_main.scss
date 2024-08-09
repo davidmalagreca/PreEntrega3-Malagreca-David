@@ -1,3 +1,5 @@
+@import "../utilities/mixins";
+
 main {
   margin-top: 13%;
   margin-bottom: 5%;
@@ -7,6 +9,7 @@ main {
   display: flex;
   justify-content: center;
   width: fit-content;
+
 }
 
 #sectionbotonindex {
@@ -116,10 +119,8 @@ main {
   }
 }
 .sectioninfotext {
-  display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: auto auto auto auto;
-  justify-content: space-around;
   margin-top: 50px;
   text-align: center;
 
@@ -130,8 +131,7 @@ main {
   }
 }
 .img-somos {
-  display: flex;
-  justify-content: center;
+  @include centerMixin;
 }
 
 .quienessomos p {
@@ -145,8 +145,7 @@ main {
 padding: 3%;
 }
 .video-wrapper {
-  display: flex;
-  justify-content: center;
+  @include centerMixin;
   align-items: center;
   width: 100%;
   height: 100%;
