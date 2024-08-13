@@ -1,0 +1,25 @@
+.devoluciones {
+    margin-top: 200px;
+
+    p {
+        font-weight: bolder;
+        margin: 5%;
+    }
+}
+
+.sectioninfo {
+    .sectioninfotext {
+        grid-template-columns: auto auto auto auto;
+        grid-template-rows: auto auto auto auto;
+        margin-top: 50px;
+        text-align: center;
+
+        a {
+            text-decoration: none;
+            color: rgb(56, 52, 52);
+            font-weight: bolder;
+        }
+
+
+    }
+}

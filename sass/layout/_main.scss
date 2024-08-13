@@ -11,6 +11,33 @@ main {
 
 }
 
+.button {
+  display: grid;
+  grid-template-columns: 500px 500px;
+  grid-template-rows: 350px 350px;
+  column-gap: 70px;
+  justify-content: center;
+  width: auto;
+  margin-bottom: 80px;
+}
+
+.img-boton {
+  display: grid;
+  border-radius: 20px;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0;
+}
+
+.boton {
+  margin-top: 80px;
+  border-radius: 23px;
+  border: none;
+}
+
 #sectionbotonindex {
   display: grid;
   margin: 3%;
@@ -19,7 +46,6 @@ main {
   column-gap: 50px;
 
   .boton {
-    margin-top: 80px;
     border-radius: 23px;
     border: none;
 
@@ -47,102 +73,6 @@ main {
   margin-top: 200px;
 }
 
-.prendas img:hover {
-  transform: scale(1.1);
-  transition: 0.3s;
-}
-
-.grilla {
-  display: grid;
-  grid-template-columns: 300px 300px 300px;
-  justify-content: center;
-  gap: 3.125rem;
-
-  .card {
-    border-color: rgba(255, 255, 255, 0);
-    width: 100%;
-    height: 100%;
-
-    .prendas {
-      width: auto;
-      height: auto;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-between;
-
-      .prenda-img {
-        border-radius: 20px;
-        width: max-content;
-        height: auto;
-        cursor: pointer;
-
-        .prenda-info {
-          background-color: rgb(255, 255, 255);
-          font-size: 13px;
-
-          .articulo {
-            font-weight: bold;
-            font-size: 30px;
-            margin-bottom: 0px;
-            margin: 10px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-          }
-
-        }
-      }
-    }
-  }
-}
-
-
-
-.prenda-info ul {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-
-  li {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: bold;
-    list-style: none;
-    margin-left: 4%;
-
-    .span {
-      font-weight: lighter;
-    }
-  }
-}
-
-.devoluciones {
-  margin-top: 200px;
-
-  p {
-    font-weight: bolder;
-    margin: 5%;
-  }
-}
-
-.sectioninfotext {
-  grid-template-columns: auto auto auto auto;
-  grid-template-rows: auto auto auto auto;
-  margin-top: 50px;
-  text-align: center;
-
-  a {
-    text-decoration: none;
-    color: rgb(56, 52, 52);
-    font-weight: bolder;
-  }
-}
-
-.img-somos {
-  @include centerMixin;
-}
-
-
-.info-somos {
-  padding: 3%;
-}
 
 .video-wrapper {
   @include centerMixin;
@@ -169,4 +99,24 @@ main {
     border: 0;
 
   }
+}
+
+.sectioninfo {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto auto auto auto;
+  justify-content: center;
+  .sectioninfotext{
+    display: flex;
+    text-align: center;
+    gap: 5%;
+  }
+
+  a {
+    text-decoration: none;
+    color: rgb(56, 52, 52);
+    font-weight: bolder;
+  }
+
+
 }
