@@ -137,7 +137,8 @@ main {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: auto auto auto auto;
-  justify-content: center; }
+  justify-content: center;
+  margin-top: 5%; }
   .sectioninfo .sectioninfotext {
     display: flex;
     text-align: center;
@@ -242,7 +243,8 @@ main {
   justify-content: center; }
 
 .info-somos {
-  padding: 3%; }
+  padding: 3%;
+  font-weight: bold; }
 
 .devoluciones {
   margin-top: 200px; }
@@ -250,12 +252,15 @@ main {
     font-weight: bolder;
     margin: 5%; }
 
-.sectioninfo .sectioninfotext {
+.sectioninfo {
+  display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: auto auto auto auto;
-  margin-top: 50px;
-  text-align: center; }
-  .sectioninfo .sectioninfotext a {
+  justify-content: center; }
+  .sectioninfo .sectioninfotext {
+    text-align: center;
+    gap: 5%; }
+  .sectioninfo a {
     text-decoration: none;
     color: #383434;
     font-weight: bolder; }
