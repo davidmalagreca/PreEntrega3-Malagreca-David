@@ -95,17 +95,15 @@
             justify-content: center;
         }
     }
+    #section-somos {
+        display: grid;
 
-    .img-info img {
-        width: 50px;
-        max-width: 50px;
-        min-width: 10px;
+        .img-somos {
+            width: 300px;
+            min-width: 20px;
+        }
     }
-
-
-
-
-    #sectionbotonindex {
+    .img-info img {
         display: grid;
         margin: 3%;
         grid-template-columns: auto;

@@ -189,10 +189,6 @@ main {
           .grilla .card .prendas .prenda-info ul li .span {
             font-weight: lighter; }
 
-.prendas img:hover {
-  transform: scale(1.1);
-  transition: 0.3s; }
-
 .grilla {
   display: grid;
   grid-template-columns: 300px 300px 300px;
@@ -234,17 +230,21 @@ main {
           .grilla .card .prendas .prenda-info ul li .span {
             font-weight: lighter; }
 
-.prendas img:hover {
-  transform: scale(1.1);
-  transition: 0.3s; }
+#main-somos {
+  padding: 0;
+  margin: 100px; }
 
-.img-somos {
+#section-somos {
   display: flex;
-  justify-content: center; }
-
-.info-somos {
-  padding: 3%;
-  font-weight: bold; }
+  flex-direction: column; }
+  #section-somos .img-somos {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto; }
+  #section-somos .info-somos {
+    padding: 3%;
+    font-weight: bold; }
 
 .devoluciones {
   margin-top: 200px; }
@@ -378,23 +378,24 @@ a {
     .sectioninfotext img {
       max-width: 150px;
       justify-content: center; }
+  #section-somos {
+    display: grid; }
+    #section-somos .img-somos {
+      width: 300px;
+      min-width: 20px; }
   .img-info img {
-    width: 50px;
-    max-width: 50px;
-    min-width: 10px; }
-  #sectionbotonindex {
     display: grid;
     margin: 3%;
     grid-template-columns: auto;
     justify-content: center;
     column-gap: 5px;
     margin-top: 50px; }
-    #sectionbotonindex button {
+    .img-info img button {
       display: grid;
       margin: 5px;
       width: auto;
       height: auto; }
-      #sectionbotonindex button img {
+      .img-info img button img {
         width: 100%; }
   .grilla {
     display: grid;
@@ -430,6 +431,11 @@ a {
     padding: 0;
     box-sizing: border-box;
     justify-content: center; }
+  #section-somos {
+    display: grid; }
+    #section-somos .img-somos {
+      width: 300px;
+      min-width: 20px; }
   .centro {
     margin-top: 35%; }
   .nav-item {

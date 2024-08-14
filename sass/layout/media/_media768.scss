@@ -6,6 +6,15 @@
         justify-content: center;
     }
 
+    #section-somos {
+        display: grid;
+
+        .img-somos {
+            width: 300px;
+            min-width: 20px;
+        }
+    }
+
     .centro {
         margin-top: 35%;
     }
