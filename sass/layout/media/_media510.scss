@@ -6,6 +6,11 @@
         justify-content: center;
     }
 
+    #sectionbotonindex {
+        display: flex;
+        flex-direction: column;
+    }
+
     .nav-item {
         display: flex;
         gap: 7px;
@@ -16,11 +21,13 @@
         display: flex;
         justify-content: center;
     }
-    .centro{
-        .centro-img{
+
+    .centro {
+        .centro-img {
             margin-top: 180px;
         }
     }
+
     .logobong {
         display: flex;
         justify-content: center;
@@ -83,18 +90,21 @@
     .sectioninfotext {
         display: grid;
         grid-template-columns: auto auto auto auto;
-        margin: 4%;gi
+        margin: 4%;
+        width: auto;
 
         a {
             font-size: 6px;
             text-align: center;
             margin-top: 3px;
         }
+
         img {
             max-width: 150px;
             justify-content: center;
         }
     }
+
     #section-somos {
         display: grid;
 
@@ -103,6 +113,7 @@
             min-width: 20px;
         }
     }
+
     .img-info img {
         display: grid;
         margin: 3%;
@@ -163,9 +174,30 @@
     .tarjetas-footer img {
         width: 15px;
     }
+
     .quienessomos {
         p {
             font-size: 30px;
+        }
+    }
+
+    .video-container {
+        position: relative;
+        width: 450px;
+        height: 350px;
+        overflow: hidden;
+        background: #000000;
+        border-radius: 8px;
+        margin: 5%;
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+
         }
     }
 }

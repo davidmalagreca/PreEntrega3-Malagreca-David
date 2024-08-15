@@ -1,0 +1,38 @@
+@media screen and (max-width: 2560px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .centro {
+        @include centerMixin;
+    }
+
+    .video-container {
+        position: relative;
+        overflow: hidden;
+        background: #000000;
+        border-radius: 8px;
+        margin: 5%;
+
+        iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: 0;
+
+        }
+    }
+
+    #main-somos {
+        display: flex;
+    }
+
+    .info-somos {
+        font-size: 20px;
+        margin-top: 5%;
+    }
+}
