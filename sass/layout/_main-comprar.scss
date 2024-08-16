@@ -1,19 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .devoluciones {
-    margin-top: 200px;
-
     p {
         font-weight: bolder;
         margin: 5%;
     }
 }
-
-.sectioninfo {
+.p_comprar{
+    @include centerMixin;
+}
+.sectioninfo_comprar {
     display: grid;
     grid-template-columns: auto auto auto auto;
     grid-template-rows: auto auto auto auto;
     justify-content: center;
 
-    .sectioninfotext {
+    .sectioninfotext_comprar {
         text-align: center;
         gap: 5%;
     }
@@ -23,6 +28,8 @@
         color: rgb(56, 52, 52);
         font-weight: bolder;
     }
-
-
+}
+.confianza{
+    margin-top: 20%;
+    @include centerMixin;
 }

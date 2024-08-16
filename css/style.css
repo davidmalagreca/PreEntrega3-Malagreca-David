@@ -246,24 +246,36 @@ main {
     padding: 3%;
     font-weight: bold; }
 
-.devoluciones {
-  margin-top: 200px; }
-  .devoluciones p {
-    font-weight: bolder;
-    margin: 5%; }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
-.sectioninfo {
+.devoluciones p {
+  font-weight: bolder;
+  margin: 5%; }
+
+.p_comprar {
+  display: flex;
+  justify-content: center; }
+
+.sectioninfo_comprar {
   display: grid;
   grid-template-columns: auto auto auto auto;
   grid-template-rows: auto auto auto auto;
   justify-content: center; }
-  .sectioninfo .sectioninfotext {
+  .sectioninfo_comprar .sectioninfotext_comprar {
     text-align: center;
     gap: 5%; }
-  .sectioninfo a {
+  .sectioninfo_comprar a {
     text-decoration: none;
     color: #383434;
     font-weight: bolder; }
+
+.confianza {
+  margin-top: 20%;
+  display: flex;
+  justify-content: center; }
 
 footer {
   width: 100%;
@@ -349,6 +361,10 @@ button div ul li a {
     display: grid; }
   .centro {
     margin-top: 35%; }
+  .confianza {
+    display: flex;
+    justify-content: center;
+    margin-top: 30%; }
   .nav-item {
     display: flex;
     gap: 7px;
@@ -448,6 +464,10 @@ button div ul li a {
     padding: 0;
     box-sizing: border-box;
     justify-content: center; }
+  .confianza {
+    display: flex;
+    justify-content: center;
+    margin-top: 80%; }
   #sectionbotonindex {
     display: flex;
     flex-direction: column; }

@@ -6,6 +6,10 @@
         justify-content: center;
     }
 
+    .confianza{
+        @include centerMixin;
+        margin-top: 80%;
+    }
     #sectionbotonindex {
         display: flex;
         flex-direction: column;
