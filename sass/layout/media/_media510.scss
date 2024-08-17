@@ -6,10 +6,6 @@
         justify-content: center;
     }
 
-    .confianza{
-        @include centerMixin;
-        margin-top: 80%;
-    }
     #sectionbotonindex {
         display: flex;
         flex-direction: column;
@@ -26,11 +22,6 @@
         justify-content: center;
     }
 
-    .centro {
-        .centro-img {
-            margin-top: 180px;
-        }
-    }
 
     .logobong {
         display: flex;
@@ -59,27 +50,6 @@
         overflow: hidden;
     }
 
-    .button .boton {
-        display: grid;
-        grid-template-columns: auto;
-        column-gap: 1px;
-        margin-bottom: 40px;
-        background-color: rgba(255, 255, 255, 0);
-        width: auto;
-    }
-
-    .button {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        overflow: hidden;
-    }
-
-    .boton {
-        display: flex;
-        justify-content: center;
-    }
-
     .footerimg {
         display: flex;
         justify-content: start;
@@ -98,43 +68,32 @@
         width: auto;
 
         a {
-            font-size: 6px;
+            font-size: 10px;
             text-align: center;
             margin-top: 3px;
         }
 
         img {
-            max-width: 150px;
+            max-width: 50px;
             justify-content: center;
         }
     }
 
-    #section-somos {
+    .sectioninfotext_comprar {
         display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin: 4%;
+        width: auto;
 
-        .img-somos {
-            width: 300px;
-            min-width: 20px;
+        a {
+            font-size: 10px;
+            text-align: center;
+            margin-top: 3px;
         }
-    }
 
-    .img-info img {
-        display: grid;
-        margin: 3%;
-        grid-template-columns: auto;
-        justify-content: center;
-        column-gap: 5px;
-        margin-top: 50px;
-
-        button {
-            display: grid;
-            margin: 5px;
-            width: auto;
-            height: auto;
-
-            img {
-                width: 100%;
-            }
+        img {
+            max-width: 50px;
+            justify-content: center;
         }
     }
 
@@ -179,10 +138,70 @@
         width: 15px;
     }
 
+    //**Index Nosotros**//
     .quienessomos {
         p {
             font-size: 30px;
         }
+    }
+
+    .aside_somos {
+        margin-top: -100px;
+    }
+
+    #section-somos {
+        display: grid;
+
+        .img-somos {
+            width: 300px;
+            min-width: 20px;
+        }
+    }
+
+    .img-info img {
+        display: grid;
+        margin: 3%;
+        grid-template-columns: auto;
+        justify-content: center;
+        column-gap: 5px;
+
+        button {
+            display: grid;
+            margin: 5px;
+            width: auto;
+            height: auto;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    //**Index Principal**//
+
+    #sectionbotonindex {
+        display: flex;
+        margin: 3%;
+        justify-content: center;
+        row-gap: 1rem;
+
+        .boton {
+            border-radius: 23px;
+            border: none;
+
+            .img-boton {
+                display: grid;
+                border-radius: 20px;
+                width: 100%;
+                height: 100%;
+                cursor: pointer;
+                background: none;
+                border: none;
+                padding: 0;
+            }
+
+        }
+
     }
 
     .video-container {
@@ -203,5 +222,16 @@
             border: 0;
 
         }
+    }
+}
+
+
+
+//**Como comprar index**//
+.compras_section {
+    margin-top: 200px;
+
+    .p_comprar {
+        font-size: 16px;
     }
 }

@@ -11,6 +11,8 @@
 }
 .p_comprar{
     @include centerMixin;
+    font-weight: bold;
+    font-size: 32px;
 }
 .sectioninfo_comprar {
     display: grid;

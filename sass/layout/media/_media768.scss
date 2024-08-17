@@ -5,17 +5,20 @@
         box-sizing: border-box;
         justify-content: center;
     }
-    #main-somos{
+
+    #main-somos {
         display: grid;
     }
+
     .centro {
         margin-top: 35%;
     }
 
-    .confianza{
+    .confianza {
         @include centerMixin;
         margin-top: 30%;
     }
+
     .nav-item {
         display: flex;
         gap: 7px;
@@ -45,6 +48,7 @@
         display: flex;
         justify-content: center;
     }
+
     #sectionbotonindex {
         column-gap: 30px;
 
@@ -57,104 +61,109 @@
             }
         }
     }
-    
-    #section-somos{
+
+    #section-somos {
         .img-somos {
             @include centerMixin;
             width: auto;
             height: auto;
         }
+
         .info-somos {
             padding: 3%;
             font-weight: bold;
         }
 
-    .video-container {
-        position: relative;
-        width: 450px;
-        height: 350px;
-        overflow: hidden;
-        background: #000000;
-        border-radius: 8px;
-        margin: 5%;
+        .video-container {
+            position: relative;
+            width: 450px;
+            height: 350px;
+            overflow: hidden;
+            background: #000000;
+            border-radius: 8px;
+            margin: 5%;
 
-        iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
+            iframe {
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                border: 0;
+
+            }
+        }
+
+        .buscar {
+            height: auto;
+            width: 100px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: start;
+            max-width: auto;
+            max-height: 100%;
+            overflow: hidden;
+        }
+
+        .button {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            overflow: hidden;
+        }
+
+        .grilla {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            margin: 20px;
+            max-width: max-content;
+            margin-top: 50px;
+            gap: 20px;
+        }
+
+        footer {
+            justify-content: stretch;
             width: 100%;
-            height: 100%;
-            border: 0;
+        }
 
+        .footerimg {
+            display: flex;
+            justify-content: start;
+        }
+
+        .sectionfooter ul {
+            width: max-content;
+        }
+
+        .sectionfooter ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        .sectionfooter {
+            margin-right: 10%;
+        }
+
+        .footerimg {
+            display: flex;
+            margin-left: 15%;
+            padding: 10px;
+            padding-top: 50px;
+        }
+
+        .quienessomos {
+            @include centerMixin;
+
+            p {
+                font-size: 40px;
+            }
         }
     }
 
-    .buscar {
-        height: auto;
-        width: 100px;
+    .aside_somos {
+        margin-top: -100px;
     }
-
-    .container {
-        display: flex;
-        justify-content: start;
-        max-width: auto;
-        max-height: 100%;
-        overflow: hidden;
-    }
-
-    .button {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        overflow: hidden;
-    }
-
-    .grilla {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        margin: 20px;
-        max-width: max-content;
-        margin-top: 50px;
-        gap: 20px;
-    }
-
-    footer {
-        justify-content: stretch;
-        width: 100%;
-    }
-
-    .footerimg {
-        display: flex;
-        justify-content: start;
-    }
-
-    .sectionfooter ul {
-        width: max-content;
-    }
-
-    .sectionfooter ul li a {
-        text-decoration: none;
-        color: white;
-    }
-
-    .sectionfooter {
-        margin-right: 10%;
-    }
-
-    .footerimg {
-        display: flex;
-        margin-left: 15%;
-        padding: 10px;
-        padding-top: 50px;
-    }
-
-    .quienessomos {
-        @include centerMixin;
-
-        p {
-            font-size: 40px;
-        }
-    }
-}
 
 }

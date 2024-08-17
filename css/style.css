@@ -62,33 +62,19 @@ main {
 .button {
   display: grid;
   grid-template-columns: 500px 500px;
-  grid-template-rows: 350px 350px;
+  grid-template-rows: auto auto;
   column-gap: 70px;
   justify-content: center;
   width: auto;
   margin-bottom: 80px; }
-
-.img-boton {
-  display: grid;
-  border-radius: 20px;
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-  background: none;
-  border: none;
-  padding: 0; }
-
-.boton {
-  margin-top: 80px;
-  border-radius: 23px;
-  border: none; }
 
 #sectionbotonindex {
   display: grid;
   margin: 3%;
   grid-template-columns: auto auto;
   justify-content: center;
-  column-gap: 50px; }
+  column-gap: 5%;
+  row-gap: 5%; }
   #sectionbotonindex .boton {
     border-radius: 23px;
     border: none; }
@@ -245,6 +231,10 @@ main {
   #section-somos .info-somos {
     padding: 3%;
     font-weight: bold; }
+  #section-somos .aside_somos {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px; }
 
 * {
   margin: 0;
@@ -257,7 +247,9 @@ main {
 
 .p_comprar {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+  font-weight: bold;
+  font-size: 32px; }
 
 .sectioninfo_comprar {
   display: grid;
@@ -456,7 +448,9 @@ button div ul li a {
     display: flex;
     justify-content: center; }
     #section-somos .quienessomos p {
-      font-size: 40px; } }
+      font-size: 40px; }
+  .aside_somos {
+    margin-top: -100px; } }
 
 @media screen and (max-width: 510px) {
   * {
@@ -464,10 +458,6 @@ button div ul li a {
     padding: 0;
     box-sizing: border-box;
     justify-content: center; }
-  .confianza {
-    display: flex;
-    justify-content: center;
-    margin-top: 80%; }
   #sectionbotonindex {
     display: flex;
     flex-direction: column; }
@@ -478,8 +468,6 @@ button div ul li a {
   .center {
     display: flex;
     justify-content: center; }
-  .centro .centro-img {
-    margin-top: 180px; }
   .logobong {
     display: flex;
     justify-content: center; }
@@ -497,21 +485,6 @@ button div ul li a {
     max-width: auto;
     max-height: 100%;
     overflow: hidden; }
-  .button .boton {
-    display: grid;
-    grid-template-columns: auto;
-    column-gap: 1px;
-    margin-bottom: 40px;
-    background-color: rgba(255, 255, 255, 0);
-    width: auto; }
-  .button {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    overflow: hidden; }
-  .boton {
-    display: flex;
-    justify-content: center; }
   .footerimg {
     display: flex;
     justify-content: start;
@@ -525,31 +498,24 @@ button div ul li a {
     margin: 4%;
     width: auto; }
     .sectioninfotext a {
-      font-size: 6px;
+      font-size: 10px;
       text-align: center;
       margin-top: 3px; }
     .sectioninfotext img {
-      max-width: 150px;
+      max-width: 50px;
       justify-content: center; }
-  #section-somos {
-    display: grid; }
-    #section-somos .img-somos {
-      width: 300px;
-      min-width: 20px; }
-  .img-info img {
+  .sectioninfotext_comprar {
     display: grid;
-    margin: 3%;
-    grid-template-columns: auto;
-    justify-content: center;
-    column-gap: 5px;
-    margin-top: 50px; }
-    .img-info img button {
-      display: grid;
-      margin: 5px;
-      width: auto;
-      height: auto; }
-      .img-info img button img {
-        width: 100%; }
+    grid-template-columns: auto auto auto auto;
+    margin: 4%;
+    width: auto; }
+    .sectioninfotext_comprar a {
+      font-size: 10px;
+      text-align: center;
+      margin-top: 3px; }
+    .sectioninfotext_comprar img {
+      max-width: 50px;
+      justify-content: center; }
   .grilla {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -577,6 +543,43 @@ button div ul li a {
     width: 15px; }
   .quienessomos p {
     font-size: 30px; }
+  .aside_somos {
+    margin-top: -100px; }
+  #section-somos {
+    display: grid; }
+    #section-somos .img-somos {
+      width: 300px;
+      min-width: 20px; }
+  .img-info img {
+    display: grid;
+    margin: 3%;
+    grid-template-columns: auto;
+    justify-content: center;
+    column-gap: 5px; }
+    .img-info img button {
+      display: grid;
+      margin: 5px;
+      width: auto;
+      height: auto; }
+      .img-info img button img {
+        width: 100%; }
+  #sectionbotonindex {
+    display: flex;
+    margin: 3%;
+    justify-content: center;
+    row-gap: 1rem; }
+    #sectionbotonindex .boton {
+      border-radius: 23px;
+      border: none; }
+      #sectionbotonindex .boton .img-boton {
+        display: grid;
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        background: none;
+        border: none;
+        padding: 0; }
   .video-container {
     position: relative;
     width: 450px;
@@ -592,3 +595,8 @@ button div ul li a {
       width: 100%;
       height: 100%;
       border: 0; } }
+
+.compras_section {
+  margin-top: 200px; }
+  .compras_section .p_comprar {
+    font-size: 16px; }
