@@ -138,7 +138,7 @@
         width: 15px;
     }
 
-    //**Index Nosotros**//
+    //**Mas de nosotros**//
     .quienessomos {
         p {
             font-size: 30px;
@@ -204,6 +204,21 @@
 
     }
 
+    .sectioninfo {
+        
+        .sectioninfotext{
+            div{
+                display: grid;
+                a{
+                    font-size: 8px;
+                }
+                img{
+                    
+                }
+            }
+        }
+    }
+
     .video-container {
         position: relative;
         width: 450px;
@@ -223,15 +238,14 @@
 
         }
     }
-}
 
+    //**Como comprar**//
+    .compras_section {
+        margin-top: 200px;
 
-
-//**Como comprar index**//
-.compras_section {
-    margin-top: 200px;
-
-    .p_comprar {
-        font-size: 16px;
+        .p_comprar {
+            font-size: 16px;
+        }
     }
+
 }

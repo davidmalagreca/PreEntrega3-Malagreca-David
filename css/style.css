@@ -269,6 +269,41 @@ main {
   display: flex;
   justify-content: center; }
 
+#sectionPrendaArticulo {
+  display: flex;
+  justify-content: center; }
+
+.grillaPrenda {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto; }
+  .grillaPrenda .cardPrenda {
+    display: flex;
+    margin-right: 30%;
+    display: flex;
+    flex-direction: row;
+    direction: rtl; }
+    .grillaPrenda .cardPrenda .prendasPrenda .detallesPrenda p {
+      width: 800px;
+      font-size: 12px;
+      text-align: center; }
+    .grillaPrenda .cardPrenda .prenda-imgPrenda {
+      width: 50%;
+      border-radius: 20px; }
+
+.prenda-infoPrenda ul {
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  font-weight: bold; }
+
+.prenda-infoPrenda .articuloPrenda {
+  font-weight: bold;
+  font-size: 32px;
+  margin-right: 32px;
+  text-align: center; }
+
 footer {
   width: 100%;
   background-color: black; }
@@ -429,9 +464,6 @@ button div ul li a {
   #section-somos footer {
     justify-content: stretch;
     width: 100%; }
-  #section-somos .footerimg {
-    display: flex;
-    justify-content: start; }
   #section-somos .sectionfooter ul {
     width: max-content; }
   #section-somos .sectionfooter ul li a {
@@ -439,18 +471,16 @@ button div ul li a {
     color: white; }
   #section-somos .sectionfooter {
     margin-right: 10%; }
-  #section-somos .footerimg {
-    display: flex;
-    margin-left: 15%;
-    padding: 10px;
-    padding-top: 50px; }
   #section-somos .quienessomos {
     display: flex;
     justify-content: center; }
     #section-somos .quienessomos p {
       font-size: 40px; }
   .aside_somos {
-    margin-top: -100px; } }
+    margin-top: -100px; }
+  .footerimg {
+    display: flex;
+    justify-content: start; } }
 
 @media screen and (max-width: 510px) {
   * {
@@ -580,6 +610,10 @@ button div ul li a {
         background: none;
         border: none;
         padding: 0; }
+  .sectioninfo .sectioninfotext div {
+    display: grid; }
+    .sectioninfo .sectioninfotext div a {
+      font-size: 8px; }
   .video-container {
     position: relative;
     width: 450px;
@@ -594,9 +628,8 @@ button div ul li a {
       left: 0;
       width: 100%;
       height: 100%;
-      border: 0; } }
-
-.compras_section {
-  margin-top: 200px; }
-  .compras_section .p_comprar {
-    font-size: 16px; }
+      border: 0; }
+  .compras_section {
+    margin-top: 200px; }
+    .compras_section .p_comprar {
+      font-size: 16px; } }

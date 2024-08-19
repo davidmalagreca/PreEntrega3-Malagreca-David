@@ -128,11 +128,6 @@
             width: 100%;
         }
 
-        .footerimg {
-            display: flex;
-            justify-content: start;
-        }
-
         .sectionfooter ul {
             width: max-content;
         }
@@ -146,12 +141,7 @@
             margin-right: 10%;
         }
 
-        .footerimg {
-            display: flex;
-            margin-left: 15%;
-            padding: 10px;
-            padding-top: 50px;
-        }
+
 
         .quienessomos {
             @include centerMixin;
@@ -164,6 +154,11 @@
 
     .aside_somos {
         margin-top: -100px;
+    }
+
+    .footerimg{
+        display: flex;
+        justify-content: start;
     }
 
 }

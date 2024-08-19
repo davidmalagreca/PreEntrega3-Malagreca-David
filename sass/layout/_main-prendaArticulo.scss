@@ -1,0 +1,49 @@
+#sectionPrendaArticulo{
+    display: flex;
+    justify-content: center;
+    
+}
+.grillaPrenda{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+
+    .cardPrenda{
+        display: flex;
+        margin-right: 30%;
+        .prendasPrenda{
+            
+            .detallesPrenda{
+                p{
+                    width: 800px;
+                    font-size: 12px;
+                    text-align: center;
+                }
+            }
+            }
+            display: flex;
+            flex-direction: row;
+            direction: rtl;
+            .prenda-imgPrenda{
+                width: 50%;
+                border-radius: 20px;
+            }
+        }
+    }
+
+.prenda-infoPrenda{
+    ul{
+        text-align: center;
+        text-decoration: none;
+        list-style: none;
+        font-weight: bold;
+    }
+    .articuloPrenda{
+        font-weight: bold;
+        font-size: 32px;
+        margin-right: 32px;
+        text-align: center;
+    }
+}
+
