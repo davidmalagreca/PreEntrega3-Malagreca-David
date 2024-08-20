@@ -161,4 +161,37 @@
         justify-content: start;
     }
 
+//**prendaArticulo**//
+#sectionArticulo{
+    display: flex;
+    flex-direction: column;
+    .infoArticulo{
+        display: grid;
+        margin: 3%;
+        margin-right: 3%;
+        img{
+            border-radius: 20px;
+            width: 50px;
+        }
+    }
+    .imgArticulo img{
+        width: 250px;
+        border-radius: 20px;
+    }
+}
+.detallesPrenda p{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    font-size: 12px;
+    text-align: center;
+}
+.sectionArticulo1{
+    display: flex;
+}
+.divSection{
+    display: flex;
+    justify-content: center;
+}
+
 }

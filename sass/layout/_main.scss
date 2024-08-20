@@ -57,6 +57,10 @@ main {
   margin-top: 200px;
 }
 
+.sectionVideo{
+  background: url(/assets/image/logos-banners-portadas/billabonglogo.png) no-repeat center center;
+  background-size: 1600px;
+}
 
 .video-wrapper {
   @include centerMixin;
@@ -72,7 +76,7 @@ main {
   overflow: hidden;
   background: #000000;
   border-radius: 8px;
-  margin: 5%;
+  margin: 0;
 
   iframe {
     position: absolute;
