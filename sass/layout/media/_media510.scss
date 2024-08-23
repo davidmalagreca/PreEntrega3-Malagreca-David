@@ -229,7 +229,6 @@
         background: #000000;
         border-radius: 8px;
 
-
         iframe {
             position: absolute;
             top: 0;
@@ -239,13 +238,6 @@
             border: 0;
 
         }
-    }
-
-    .background-image {
-        @include centerMixin;
-        position: absolute;
-        width: auto;
-        height: auto;
     }
 
     //**Como comprar**//
