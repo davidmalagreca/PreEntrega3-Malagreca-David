@@ -100,31 +100,39 @@ main {
   margin-top: 200px; }
 
 .sectionVideo {
-  background: url(/assets/image/logos-banners-portadas/billabonglogo.png) no-repeat center center;
-  background-size: 1600px; }
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  margin-top: 10%; }
 
 .video-wrapper {
   display: flex;
   justify-content: center;
-  align-items: center;
+  position: relative;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  overflow: hidden; }
+
+.background-image {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: auto;
+  height: auto; }
 
 .video-container {
   position: relative;
-  width: 450px;
-  height: 350px;
-  overflow: hidden;
-  background: #000000;
-  border-radius: 8px;
-  margin: 0; }
-  .video-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    border: 0; }
+  width: 500px;
+  height: 500px;
+  max-width: 500px;
+  min-width: 200px;
+  min-height: auto;
+  z-index: 2; }
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: 0; }
 
 .sectioninfo {
   display: grid;
@@ -136,6 +144,8 @@ main {
     display: flex;
     text-align: center;
     gap: 5%; }
+  .sectioninfo .time img {
+    width: 50px; }
   .sectioninfo a {
     text-decoration: none;
     color: #383434;
@@ -361,19 +371,23 @@ button div ul li a {
   .centro {
     display: flex;
     justify-content: center; }
-  .video-container {
+  .video-wrapper {
+    display: flex;
+    justify-content: center;
     position: relative;
-    overflow: hidden;
-    background: #000000;
-    border-radius: 8px;
-    margin: 5%; }
-    .video-container iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border: 0; }
+    width: 100%;
+    height: 100%;
+    overflow: hidden; }
+  .background-image {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: auto;
+    height: auto; }
+  iframe {
+    width: 100%;
+    height: 100%;
+    border: 0; }
   #main-somos {
     display: flex; }
   .info-somos {
@@ -641,13 +655,14 @@ button div ul li a {
     .sectioninfo .sectioninfotext div a {
       font-size: 8px; }
   .video-container {
+    display: flex;
+    align-self: center;
     position: relative;
-    width: 450px;
-    height: 350px;
+    width: 300px;
+    height: 250px;
     overflow: hidden;
     background: #000000;
-    border-radius: 8px;
-    margin: 5%; }
+    border-radius: 8px; }
     .video-container iframe {
       position: absolute;
       top: 0;
@@ -655,6 +670,12 @@ button div ul li a {
       width: 100%;
       height: 100%;
       border: 0; }
+  .background-image {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: auto;
+    height: auto; }
   .compras_section {
     margin-top: 200px; }
     .compras_section .p_comprar {
