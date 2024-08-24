@@ -29,3 +29,34 @@
     display: flex;
     justify-content: center;
 }
+
+#pArticulo{
+    width: 100%;
+    .pArticulo{
+        width: 100%;
+        font-size: 32px;
+        font-weight: 700;
+        text-align: center;
+    }
+    .prenda-info{
+        text-align: start;
+        ul{
+            text-decoration: none;
+            list-style: none;
+            li{
+                font-weight: bolder;
+                span{
+                    font-weight: lighter;
+                }
+            }
+        }
+    }
+    .detallePrenda{
+        margin-left: 7%;
+        text-align: start;
+        p{
+            font-weight: 400;
+            text-align: start;
+        }
+    }
+}

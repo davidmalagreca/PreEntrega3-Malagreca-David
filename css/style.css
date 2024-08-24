@@ -314,6 +314,29 @@ iframe {
   display: flex;
   justify-content: center; }
 
+#pArticulo {
+  width: 100%; }
+  #pArticulo .pArticulo {
+    width: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center; }
+  #pArticulo .prenda-info {
+    text-align: start; }
+    #pArticulo .prenda-info ul {
+      text-decoration: none;
+      list-style: none; }
+      #pArticulo .prenda-info ul li {
+        font-weight: bolder; }
+        #pArticulo .prenda-info ul li span {
+          font-weight: lighter; }
+  #pArticulo .detallePrenda {
+    margin-left: 7%;
+    text-align: start; }
+    #pArticulo .detallePrenda p {
+      font-weight: 400;
+      text-align: start; }
+
 footer {
   width: 100%;
   background-color: black; }
