@@ -1,6 +1,7 @@
 #sectionArticulo{
     display: flex;
     flex-direction: column;
+    align-items: center;
     .infoArticulo{
         display: grid;
         margin: 3%;
@@ -53,7 +54,7 @@
     }
     .detallePrenda{
         margin-left: 7%;
-        text-align: start;
+        text-align: center;
         p{
             font-weight: 400;
             text-align: start;

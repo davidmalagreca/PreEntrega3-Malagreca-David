@@ -289,7 +289,8 @@ iframe {
 
 #sectionArticulo {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  align-items: center; }
   #sectionArticulo .infoArticulo {
     display: grid;
     margin: 3%;
@@ -333,7 +334,7 @@ iframe {
           font-weight: lighter; }
   #pArticulo .detallePrenda {
     margin-left: 7%;
-    text-align: start; }
+    text-align: center; }
     #pArticulo .detallePrenda p {
       font-weight: 400;
       text-align: start; }
