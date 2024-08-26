@@ -253,16 +253,23 @@
 
     //**Prenda Articulo**//
     #pArticulo{
+        margin: 5%;
+        width: auto;
         .pArticulo{
+            width: auto;
             font-size: 16px;
         }
         .prenda-info{
             ul{
+                
+            width: auto;
                 display: grid;
                 font-size: 12px;
             }
         }
         .detallePrenda{
+            
+            width: auto;
             font-size: 12px;
         }
         .botonAñadir{
@@ -271,10 +278,17 @@
             margin: 5%;
             grid-template-columns: 1fr;
             button{
+                width: 100px;
                 font-weight: 500;
                 border-radius: 2px solid;
                 background-color: #57ff9e;
                 border-color: rgba(128, 128, 128, 0);
             }
+        }
+    }
+    .detallesPrenda{
+        p{
+            margin: 5%;
+            width: auto;
         }
     }

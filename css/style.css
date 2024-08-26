@@ -699,23 +699,31 @@ button div ul li a {
     .compras_section .p_comprar {
       font-size: 16px; } }
 
-#pArticulo .pArticulo {
-  font-size: 16px; }
-
-#pArticulo .prenda-info ul {
-  display: grid;
-  font-size: 12px; }
-
-#pArticulo .detallePrenda {
-  font-size: 12px; }
-
-#pArticulo .botonAñadir {
-  width: 100%;
-  display: grid;
+#pArticulo {
   margin: 5%;
-  grid-template-columns: 1fr; }
-  #pArticulo .botonAñadir button {
-    font-weight: 500;
-    border-radius: 2px solid;
-    background-color: #57ff9e;
-    border-color: rgba(128, 128, 128, 0); }
+  width: auto; }
+  #pArticulo .pArticulo {
+    width: auto;
+    font-size: 16px; }
+  #pArticulo .prenda-info ul {
+    width: auto;
+    display: grid;
+    font-size: 12px; }
+  #pArticulo .detallePrenda {
+    width: auto;
+    font-size: 12px; }
+  #pArticulo .botonAñadir {
+    width: 100%;
+    display: grid;
+    margin: 5%;
+    grid-template-columns: 1fr; }
+    #pArticulo .botonAñadir button {
+      width: 100px;
+      font-weight: 500;
+      border-radius: 2px solid;
+      background-color: #57ff9e;
+      border-color: rgba(128, 128, 128, 0); }
+
+.detallesPrenda p {
+  margin: 5%;
+  width: auto; }
